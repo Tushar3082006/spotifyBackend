@@ -2,6 +2,7 @@ const cookieParser = require('cookie-parser');
 const express = require('express');
 const app = express();
 const authRoutes = require('./routes/auth.routes');
+const musicRoutes = require('./routes/music.routes');
 
 
 app.use(express.json());
